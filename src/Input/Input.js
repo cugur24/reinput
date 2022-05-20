@@ -103,7 +103,7 @@ export default class ReinputInput extends React.Component {
               placeholder={undefined}
               ref={this.register}
               style={styles.input(this.props, this.state.height, hasValue)}
-              underlineColorAndroid='transparent'
+              //underlineColorAndroid='transparent'
               value={value}
             />
             <Icon {...pickIconInternalProps(this.props)}
